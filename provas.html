@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"  >
+
+    <!--Fonte personalizada-->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <!--Font Awesome-->
+
+    <script src="https://kit.fontawesome.com/889c911d44.js" ></script>
+
+    <!--Título da plataforma-->
+
+    <title>Tulio Cursos - Area do Aluno</title>
+
+    <!--Icon da plataforma-->
+    <link rel="icon" href="img/tuliocursos.png">
+
+  </head>
+  <body class="provas">
+
+    
+
+    <section id="p_inicial" class="d-flex" >
+      <div class="container align-self-center" >
+        <div class="row">
+          <div class="col-md-4 vertical-nav" >
+            <!-- Início da barra vertical -->
+            <div class="collapse" id="barravertical">
+              <!-- Adicionando collapse à barra de navegação -->
+              <!-- Logo -->
+              <div>
+                <a href="index.html" class="navbar-brand col align-self-start">
+                  <img src="img/tuliocursos.png" width="148" alt="">
+                </a>
+              </div>
+              <!-- Fim logo -->
+    
+              <!-- Início lista -->
+              <ul id="navegacao" class="nav flex-column mt-5">
+                  <li class="nav-item mb-4 ml-3">
+                    <a class="nav-link mt-3" id="meus_cursos" data-bs-toggle="tab" href="meus_cursos.html">
+                      <div class="d-flex align-items-center">
+                        <i class="fas fa-book mr-2"></i> <!-- Ícone de livro -->
+                        <span>Meus Cursos</span>
+                      </div>
+                    </a>
+                  </li> 
+  
+                  <div class="espacamento"></div> <!--Espacamento-->
+  
+                  <li class="nav-item mb-4 ml-3">
+                    <a class="nav-link mt-3" id="minha_trilha" data-bs-toggle="tab" href="minha_trilha.html">
+                      <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-stairs mr-2"></i>  <!-- Ícone de livro -->
+                        <span>Minha Trilha</span>
+                      </div>
+                    </a>
+                  </li>
+  
+                  <div class="espacamento"></div> <!--Espacamento-->
+  
+                  <li class="nav-item mb-4 ml-3">
+                    <a class="nav-link mt-3" id="atividades" data-bs-toggle="tab" href="atividades.html">
+                      <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-ruler mr-2"></i> <!-- Ícone de livro -->
+                        <span>Atividades</span>
+                      </div>
+                    </a>
+                  </li>
+  
+                  <div class="espacamento"></div> <!--Espacamento-->
+  
+                  <li class="nav-item mb-4 ml-3">
+                    <a class="nav-link mt-3" id="provas" data-bs-toggle="tab" href="provas.html">
+                      <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-calendar-days mr-2"></i> <!-- Ícone de livro -->
+                        <span>Provas</span>
+                      </div>
+                    </a>
+                  </li>
+  
+             
+  
+                  <div class="espacamento"></div> <!--Espacamento-->
+  
+                  <li class="nav-item mb-4 ml-3">
+                    <a class="nav-link mt-3" id="meu_perfil" data-bs-toggle="tab" href="meu_perfil.html">
+                      <div class="d-flex align-items-center">
+                        <i class="fa-regular fa-user mr-2"></i> <!-- Ícone de usuário -->
+                        <span>Meu Perfil</span>
+                      </div>
+                    </a>
+                  </li>
+  
+                  <div class="espacamento"></div> <!--Espacamento-->
+  
+                  <li class="nav-item mb-4 ml-3">
+                    <a class="nav-link mt-3" id="contato" data-bs-toggle="tab" href="suporte.html">
+                      <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-phone mr-2"></i> <!-- Ícone do Whatsapp -->
+                        <span>Suporte</span>
+                      </div>
+                    </a>
+                  </li>
+  
+                  <div class="espacamento"></div> <!--Espacamento-->
+  
+                  <li class="nav-item mb-4 ml-3">
+                    <a class="nav-link mt-3" id="sair" data-bs-toggle="tab" href="#sair">
+                      <div class="d-flex align-items-center">
+                        <i class="fas fa-sign-out-alt mr-2"></i> <!-- Ícone de saída -->
+                        <span>Sair</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              <!-- Fim da lista -->
+            </div>
+            <!-- Fim do collapse -->
+    
+            <!-- Botão para abrir/fechar a barra de navegação -->
+            <div class="pl-3">
+            <button   class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barravertical" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <i  class="fa-solid fa-bars-staggered fa-2x cor-branca " ></i>  
+             
+            </button>
+          </div>
+            <!-- Fim do botão -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+
+      <!--cabeçalho atividade-->
+      <main role="main" class="container">
+        <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-custom borda-redonda shadow-sm">
+          <img class="mr-3" src="img/ti.png" alt="" width="48" height="48">
+          <div class="lh-100">
+            <h6 class="mb-0 text-white lh-100 font-weight-bold">Curso de Informática - Explorando as Maravilhas da Tecnologia: Curso de Informática para Iniciantes</h6>
+      <small> Cursos</small>
+          </div>
+        </div>
+    
+    
+         <!--CAIXA DE ATIVIDADE-->
+    
+       
+         <div class="my-3 p-3 bg-white borda-redonda shadow-sm">
+          <h6 class="border-bottom border-gray pb-2 mb-0 h6-atividades">NOVAS ATIVIDADES</h6>
+          <!--card-->
+          <div class="media text-muted pt-3">
+            <img src="https://source.unsplash.com/random/35x35" alt="">
+            <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray ml-3">
+              <div class="d-flex justify-content-between align-items-center w-100">
+                <strong class="text-info font-weight-bold mb-1">Física Quântica</strong> 
+                NOTAS:___
+                <a href="#" data-toggle="collapse" data-target="#opcoes1"><i class="fa-solid fa-bars fa-lg mt-3"></i></a>
+              </div>
+
+              <!--Lista de Atividades-->
+  
+              <ul class="list-group list-group-flush collapse" id="opcoes1">
+                <li class="list-group-item">
+
+
+                  
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 1</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 2</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 3</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 4</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 5</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+              </ul>
+              <span class="d-block"><i class="fa-solid fa-user-pen mr-2"></i>X AVISOS</span>
+            </div>
+          </div>
+        
+  
+ 
+          <!--Card-->
+          <div class="media text-muted pt-3">
+            <img src="https://source.unsplash.com/random/35x35" alt="">
+            <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray ml-3">
+              <div class="d-flex justify-content-between align-items-center w-100">
+                <strong class="text-info font-weight-bold mb-1">Física Quântica</strong> 
+                NOTAS:___
+                <a href="#" data-toggle="collapse" data-target="#opcoes2"><i class="fa-solid fa-bars fa-lg mt-3"></i></a>
+              </div>
+
+              <!--Lista de Atividades-->
+  
+              <ul class="list-group list-group-flush collapse" id="opcoes2">
+                <li class="list-group-item">
+
+
+                  
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 1</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 2</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 3</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 4</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 5</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+              </ul>
+              <span class="d-block"><i class="fa-solid fa-user-pen mr-2"></i>X AVISOS</span>
+            </div>
+          </div>
+
+
+
+          <!--Card-->
+
+       <div class="media text-muted pt-3">
+            <img src="https://source.unsplash.com/random/35x35" alt="">
+            <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray ml-3">
+              <div class="d-flex justify-content-between align-items-center w-100">
+                <strong class="text-info font-weight-bold mb-1">Física Quântica</strong> 
+                NOTAS:___
+                <a href="#" data-toggle="collapse" data-target="#opcoes3"><i class="fa-solid fa-bars fa-lg mt-3"></i></a>
+              </div>
+
+              <!--Lista de Atividades-->
+  
+              <ul class="list-group list-group-flush collapse" id="opcoes3">
+                <li class="list-group-item">
+
+
+                  
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 1</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 2</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 3</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 4</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 5</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+              </ul>
+              <span class="d-block"><i class="fa-solid fa-user-pen mr-2"></i>X AVISOS</span>
+            </div>
+          </div>
+      </div>
+    </div>  
+    
+        <!--FIM CAIXA DE ATIVIDADE-->
+    
+         <!--CAIXA DE ATIVIDADE-->
+    
+         
+         
+            
+              <div class="my-3 p-3 bg-white borda-redonda shadow-sm">
+                <h6 class="border-bottom border-gray pb-2 mb-0 h6-atividades">Atividades em progresso</h6>
+                <!--card-->
+                <div class="media text-muted pt-3">
+                  <img src="https://source.unsplash.com/random/35x35" alt="">
+                  <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray ml-3">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                      <strong class="text-info font-weight-bold mb-1">Física Quântica</strong> 
+                      NOTAS:___
+                      <a href="#" data-toggle="collapse" data-target="#opcoes4"><i class="fa-solid fa-bars fa-lg mt-3"></i></a>
+                    </div>
+
+                    <!--Lista de Atividades-->
+        
+                    <ul class="list-group list-group-flush collapse" id="opcoes4">
+                      <li class="list-group-item">
+
+
+                  
+                        <div class="d-flex justify-content-between align-items-center w-100">
+      
+                         
+                          <a href="">Atividade 1</a>
+                          NOTA:___
+      
+                          <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+      
+                        </div>
+      
+      
+                      </li>
+      
+                      <li class="list-group-item">
+      
+                        <div class="d-flex justify-content-between align-items-center w-100">
+      
+                         
+                          <a href="">Atividade 2</a>
+                          NOTA:___
+      
+                          <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+      
+                        </div>
+      
+                      </li>
+      
+                      <li class="list-group-item">
+      
+                        <div class="d-flex justify-content-between align-items-center w-100">
+      
+                         
+                          <a href="">Atividade 3</a>
+                          NOTA:___
+      
+                          <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+      
+                        </div>
+      
+                      </li>
+      
+                      <li class="list-group-item">
+      
+                        <div class="d-flex justify-content-between align-items-center w-100">
+      
+                         
+                          <a href="">Atividade 4</a>
+                          NOTA:___
+      
+                          <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+      
+                        </div>
+      
+                      </li>
+      
+                      <li class="list-group-item">
+      
+                        <div class="d-flex justify-content-between align-items-center w-100">
+      
+                         
+                          <a href="">Atividade 5</a>
+                          NOTA:___
+      
+                          <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+      
+                        </div>
+      
+                      </li>
+                    </ul>
+                    <span class="d-block"><i class="fa-solid fa-user-pen mr-2"></i>X AVISOS</span>
+                  </div>
+                </div>
+              
+        
+       
+                <!--Card-->
+                <div class="media text-muted pt-3">
+                  <img src="https://source.unsplash.com/random/35x35" alt="">
+                  <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray ml-3">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                      <strong class="text-info font-weight-bold mb-1">Física Quântica</strong> 
+                      NOTAS:___
+                      <a href="#" data-toggle="collapse" data-target="#opcoes5"><i class="fa-solid fa-bars fa-lg mt-3"></i></a>
+                    </div>
+
+                    <!--Lista de Atividades-->
+        
+                    <ul class="list-group list-group-flush collapse" id="opcoes5">
+                      <li class="list-group-item">
+
+
+                  
+                        <div class="d-flex justify-content-between align-items-center w-100">
+      
+                         
+                          <a href="">Atividade 1</a>
+                          NOTA:___
+      
+                          <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+      
+                        </div>
+      
+      
+                      </li>
+      
+                      <li class="list-group-item">
+      
+                        <div class="d-flex justify-content-between align-items-center w-100">
+      
+                         
+                          <a href="">Atividade 2</a>
+                          NOTA:___
+      
+                          <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+      
+                        </div>
+      
+                      </li>
+      
+                      <li class="list-group-item">
+      
+                        <div class="d-flex justify-content-between align-items-center w-100">
+      
+                         
+                          <a href="">Atividade 3</a>
+                          NOTA:___
+      
+                          <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+      
+                        </div>
+      
+                      </li>
+      
+                      <li class="list-group-item">
+      
+                        <div class="d-flex justify-content-between align-items-center w-100">
+      
+                         
+                          <a href="">Atividade 4</a>
+                          NOTA:___
+      
+                          <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+      
+                        </div>
+      
+                      </li>
+      
+                      <li class="list-group-item">
+      
+                        <div class="d-flex justify-content-between align-items-center w-100">
+      
+                         
+                          <a href="">Atividade 5</a>
+                          NOTA:___
+      
+                          <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+      
+                        </div>
+      
+                      </li>
+                    </ul>
+                    <span class="d-block"><i class="fa-solid fa-user-pen mr-2"></i>X AVISOS</span>
+                  </div>
+                </div>
+
+    
+
+                <!--Card-->
+
+             <div class="media text-muted pt-3">
+                  <img src="https://source.unsplash.com/random/35x35" alt="">
+                  <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray ml-3">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                      <strong class="text-info font-weight-bold mb-1">Física Quântica</strong> 
+                      NOTAS:___
+                      <a href="#" data-toggle="collapse" data-target="#opcoes6"><i class="fa-solid fa-bars fa-lg mt-3"></i></a>
+                    </div>
+
+                    <!--Lista de Atividades-->
+        
+                    <ul class="list-group list-group-flush collapse" id="opcoes6">
+                      <li class="list-group-item">
+
+
+                  
+                        <div class="d-flex justify-content-between align-items-center w-100">
+      
+                         
+                          <a href="">Atividade 1</a>
+                          NOTA:___
+      
+                          <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+      
+                        </div>
+      
+      
+                      </li>
+      
+                      <li class="list-group-item">
+      
+                        <div class="d-flex justify-content-between align-items-center w-100">
+      
+                         
+                          <a href="">Atividade 2</a>
+                          NOTA:___
+      
+                          <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+      
+                        </div>
+      
+                      </li>
+      
+                      <li class="list-group-item">
+      
+                        <div class="d-flex justify-content-between align-items-center w-100">
+      
+                         
+                          <a href="">Atividade 3</a>
+                          NOTA:___
+      
+                          <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+      
+                        </div>
+      
+                      </li>
+      
+                      <li class="list-group-item">
+      
+                        <div class="d-flex justify-content-between align-items-center w-100">
+      
+                         
+                          <a href="">Atividade 4</a>
+                          NOTA:___
+      
+                          <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+      
+                        </div>
+      
+                      </li>
+      
+                      <li class="list-group-item">
+      
+                        <div class="d-flex justify-content-between align-items-center w-100">
+      
+                         
+                          <a href="">Atividade 5</a>
+                          NOTA:___
+      
+                          <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+      
+                        </div>
+      
+                      </li>
+                    </ul>
+                    <span class="d-block"><i class="fa-solid fa-user-pen mr-2"></i>X AVISOS</span>
+                  </div>
+                </div>
+          </div>
+        </div>  
+        <!--FIM CAIXA DE ATIVIDADE-->
+        
+        <!--CAIXA DE ATIVIDADE-->
+    
+        
+        <div class="my-3 p-3 bg-white borda-redonda shadow-sm">
+          <h6 class="border-bottom border-gray pb-2 mb-0 h6-atividades">Alertas</h6>
+          <!--card-->
+          <div class="media text-muted pt-3">
+            <img src="https://source.unsplash.com/random/35x35" alt="">
+            <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray ml-3">
+              <div class="d-flex justify-content-between align-items-center w-100">
+                <strong class="text-info font-weight-bold mb-1">Física Quântica</strong> 
+                NOTAS:___
+                <a href="#" data-toggle="collapse" data-target="#opcoes7"><i class="fa-solid fa-bars fa-lg mt-3"></i></a>
+              </div>
+
+              <!--Lista de Atividades-->
+  
+              <ul class="list-group list-group-flush collapse" id="opcoes7">
+                <li class="list-group-item">
+
+
+                  
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 1</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 2</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 3</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 4</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 5</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+              </ul>
+              <span class="d-block"><i class="fa-solid fa-user-pen mr-2"></i>X AVISOS</span>
+            </div>
+          </div>
+        
+  
+ 
+          <!--Card-->
+          <div class="media text-muted pt-3">
+            <img src="https://source.unsplash.com/random/35x35" alt="">
+            <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray ml-3">
+              <div class="d-flex justify-content-between align-items-center w-100">
+                <strong class="text-info font-weight-bold mb-1">Física Quântica</strong> 
+                NOTAS:___
+                <a href="#" data-toggle="collapse" data-target="#opcoes8"><i class="fa-solid fa-bars fa-lg mt-3"></i></a>
+              </div>
+
+              <!--Lista de Atividades-->
+  
+              <ul class="list-group list-group-flush collapse" id="opcoes8">
+                <li class="list-group-item">
+
+
+                  
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 1</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 2</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 3</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 4</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 5</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+              </ul>
+              <span class="d-block"><i class="fa-solid fa-user-pen mr-2"></i>X AVISOS</span>
+            </div>
+          </div>
+
+
+
+          <!--Card-->
+
+       <div class="media text-muted pt-3">
+            <img src="https://source.unsplash.com/random/35x35" alt="">
+            <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray ml-3">
+              <div class="d-flex justify-content-between align-items-center w-100">
+                <strong class="text-info font-weight-bold mb-1">Física Quântica</strong> 
+                NOTAS:___
+                <a href="#" data-toggle="collapse" data-target="#opcoes9"><i class="fa-solid fa-bars fa-lg mt-3"></i></a>
+              </div>
+  
+              <!--Lista de Atividades-->
+              <ul class="list-group list-group-flush collapse" id="opcoes9">
+
+                <li class="list-group-item">
+
+
+                  
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 1</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 2</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 3</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 4</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+
+                  <div class="d-flex justify-content-between align-items-center w-100">
+
+                   
+                    <a href="">Atividade 5</a>
+                    NOTA:___
+
+                    <span class="d-block"><i class="fa-solid fa-calendar-days mr-2"></i>23/02/22 á 13/02/23</span>
+
+                  </div>
+
+                </li>
+
+              </ul>
+              <span class="d-block"><i class="fa-solid fa-user-pen mr-2"></i></i>X AVISOS</span>
+            </div>
+          </div>
+      </div>
+    </div>  
+    
+         <!--FIM CAIXA DE ATIVIDADE-->
+      </main>
+    
+    
+    </section>
+  
+    
+
+
+
+
+
+<!--Script do site-->
+<script src="js/site.js"></script>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
