@@ -1,3 +1,3 @@
-Vercel Link
+Preview
 
 https://front-bootstrap.vercel.app/
